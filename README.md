@@ -1,5 +1,20 @@
 # Dotfiles
 These are QoioQ's shell configuration dotfiles.
+I'm running on [Mac OSX 10.10 Yosemite](http://www.apple.com/osx/).
+
+## Installation
+See [technicalpickles/homesick](https://github.com/technicalpickles/homesick) for setup.
+
+``` sh
+gem install homesick
+
+homesick clone git://github.com/QoioQ/dotfiles.git
+
+# `clone` doesn't update submodules, but `pull` does.
+homesick pull dotfiles
+
+homesick symlink dotfiles
+```
 
 ## License
 (The MIT License)
